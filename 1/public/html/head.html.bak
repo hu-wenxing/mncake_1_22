@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="head.css">
+	</head>
+	<body>
+		<div class="top">
+		  <div class="top_nav">
+		   <ul type="none">
+			   <li><img src="top_ico1.png" alt=""><span id="ttt"><a href="http://127.0.0.1:8686/login.html">登录</a>/<a href="http://127.0.0.1:8686/reg.html">注册</a></span></li>
+			   <li><img src="top_ico2.png" alt=""><a href="http://127.0.0.1:8686/gwc.html">购物车<span class="cart_num" id="cart_sum">0</span></a><br></li>
+			   <li><img src="top_ico3.png" alt=""><a href="#">在线客服</a></li>
+			   <li><img src="top_ico4.png" alt=""><a href="#">400-888-5224</a></li>
+			   <li><img src="top_ico5.png" alt=""><a href="#">订单查询</a></li>
+			   <li id="dd1"><img src="top_ico6.png" alt=""><a href="#">我的足迹</a></li>
+		   </ul>
+		  </div>
+		</div>
+		<div id="fixed">
+			<div class="head_nav">
+			    <img src="mncake.png" alt="">
+			    <div class="search">
+			       	<input type="text" id="nrr" placeholder="请输入搜索关键字"><button onclick="show()"></button>
+			    </div>
+			    <div>
+			    <ul>
+			    	<li id="djsj0" class="xianshi"><a href="http://127.0.0.1:8686/index.html" onclick="dj0(0)">首页<span class="gradual"></span></a></li>
+			    	<li id="djsj1"><a href="#" onclick="dj0(1)">全部蛋糕<span class="gradual"></span></a></li>
+			    	<li id="djsj2"><a href="#" onclick="dj2()">儿童蛋糕<span class="gradual"></span></a></li>
+			    	<li id="djsj3"><a href="#" onclick="dj3()">祝寿蛋糕<span class="gradual"></span></a></li>
+			    	<li id="djsj4"><a href="#" onclick="dj4()">情人蛋糕<span class="gradual"></span></a></li>
+			    	<li id="djsj5"><a href="#" onclick="dj5()">水果蛋糕<span class="gradual"></span></a></li>
+			    	<li id="djsj6"><a href="#" onclick="dj6()">奶油蛋糕<span class="gradual"></span></a></li>
+			    	<li id="djsj7"><a href="#" onclick="dj7()">鲜花&蛋糕组合<span class="gradual"></span></a></li>
+			    </ul> 
+			    </div>
+			</div>
+		</div>
+	</body>
+			<script src="head.js"></script>
+</html>

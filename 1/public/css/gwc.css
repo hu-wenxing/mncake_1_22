@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+ }
+ /* 中间位置 */
+.w-1200{
+    width:1200px;
+    margin: 0 auto;
+}
+/*没有商品时的样式*/
+.cart-empty{
+    height: 174px;
+    padding: 63px 0;
+    background-color: #fff;
+}
+.cart-message{
+    padding-left: 490px;
+    height: 174px;
+    background: url(icon_emty_cart.png) 177px 0 no-repeat;
+}
+.cart-message .txt{
+    font-size: 24px;
+    font-weight: bold;
+    color: #8c8c8c;
+    padding-top: 35px;
+}
+.cart-message .info{
+    overflow: hidden;
+    margin-top: 25px;
+}
+.cart-message .info a{
+    width: 138px;
+    height: 38px;
+    line-height: 38px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: block;
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+    background: linear-gradient(#F2A358, #EE794D);
+}
+.cart-message .info a:hover {
+    background: #ec5051;
+    color: #fff;
+}
+.ftit-delr{
+    overflow: hidden;
+    padding: 0 0 20px;
+    height: 35px;
+    background: url(dian-ico2.png) repeat-x 0 18px;
+    text-align: center;
+    font-size: 21px;
+    line-height: 33px;
+}
+.ftit-delr h3{
+    display: inline;
+    padding: 0 50px;
+    font-weight: 400;
+    font-size: 21px;
+    color: #555;
+    font-family: "microsoft yahei";
+} 
+.gl-list ul{
+    list-style:none;
+    display:flex;
+    justify-content: space-between;
+    font: 12px/1.5 Microsoft YaHei,tahoma,arial,Hevetica,\\5b8b\4f53,sans-serif;
+}
+.gl-list li a:hover{
+color: #f42424;
+}
+.opacity_img{
+    margin-right: 12px;
+    width: 190px;
+    height: auto;
+    z-index: 2;
+    margin-right: 10px;
+}
+.opacity_img:hover img{
+    opacity: .7;
+    /* selector: alpha(opacity=70); */
+}
+#tt{
+    background: #f8f8f8;
+    padding-top: 30px;
+}
+.step-item{
+    background-color: #ff8f23;
+    color: #fff;
+    display: inline-block;
+    width: 126px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #ff8f23;
+    border-radius: 18px;
+}
+.step-item-2{
+    display: inline-block;
+    width: 126px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    color: #8c8c8c;
+    font-size: 14px;
+    border: 1px solid #f8f8f8;
+    border-radius: 18px;
+}
+.img-style{
+    width: 13px;
+    margin: 0 12px;
+}
+.cart-head{
+    background-color: #fff;
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #8c8c8c;
+    margin-top: 16px;
+}
+.cart-tbody{
+    margin-top: 10px;
+    background-color: #fff;
+}
+.item-list{
+    padding: 20px;
+}
+.item-list-li{
+    padding:15px 0;
+}
+.item-single{
+    position: relative;
+    height: 72px;
+}
+.item-single img{
+    width: 70px;
+    height: 70px;
+    vertical-align:middle
+}
+.cart-head input{
+    vertical-align:baseline;
+}
+.item-single input{
+    vertical-align:top;
+}
+.item-single>span:nth-child(2){
+    position: absolute;
+    left:62.8px;
+    border: 1px solid #d2d2d2;
+}
+.item-single>span:nth-child(3){
+    position: absolute;
+    left:154.8px;
+}
+.item-single>span:nth-child(3)>a{
+    color: #555;
+    display: block;
+    font: 12px/1.5 Microsoft YaHei,tahoma,arial,Hevetica,\\5b8b\4f53,sans-serif;
+    margin-top: 8px;
+}
+.item-single>span:nth-child(4){
+    position: absolute;
+    left:618.8px;
+    color: #F2A358;
+    font-size: 16px;
+    font-weight: 400;  
+}
+.item-single>a:nth-child(5){
+    position: absolute;
+    left:789.8px;
+    width: 60px;
+}
+.item-single>a:nth-child(5) input{
+    border: 1px solid #d2d2d2;
+    width: 28px;
+    height: 28px;
+    outline: 0;
+    text-align: center;
+    color: #555;
+}
+.item-single>a:nth-child(5)>span{
+    display: inline-block;
+    width: 22px;
+    height: 28px;
+}
+.arr-sty{
+    width: 22px;
+    height: 13px;
+    text-align: center;
+    line-height: 14px;
+    border: 1px solid #d2d2d2;
+    border-left: 0;
+    cursor: pointer;
+}
+.item-single>span:nth-child(6){
+    position: absolute;
+    left:917.8px;
+    color: #F2A358;
+    font-size: 16px;
+    font-weight: 700;
+}
+.del_btn{
+    position: absolute;
+    left:1041.8px;
+    font-size: 12px;
+    color: #438cde;
+    cursor: pointer;
+    border: 0;
+    background: #fff;
+}
+.del_btn:hover{
+    color: #f42424;
+}
+.cart-tfoot{
+    margin-top: 10px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+    font-size: 14px;
+    color: #8c8c8c;
+}
+.submit-btn{
+    background: linear-gradient(#F2A358, #EE794D);
+    width: 160px;
+    height: 50px;
+    border: 0;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: 0;
+    float: right;
+}
+.delall-btn{
+    color: #438cde;
+    cursor: pointer;
+    border: 0;
+    background: #fff;
+    margin-left:20px;
+    font-size: 16px;
+}
+.delall-btn:hover{
+    color: #f42424;
+}
+.zongji{
+    color: #F2A358;
+    font-size: 24px;
+    font-weight: 700;
+    vertical-align: top;
+    margin-right: 25px;
+}
+.cart-tfoot>span:nth-child(2){
+    float: right;
+}
+    

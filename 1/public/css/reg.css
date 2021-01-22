@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+ }
+ /* 中间位置 */
+.mdl{
+	width: 1200px;
+	margin: 0px auto;
+	padding: 30px 0px;
+	font: 12px/1.5 Microsoft YaHei,tahoma,arial,Hevetica,\\5b8b\4f53,sans-serif;
+}
+.title{
+    border-bottom: 1px solid #d9d9d9;
+    height: 40px;
+}
+.title>h3{
+    font-weight: normal;
+    font-size: 16px;
+    color: #FF9748;
+    width: 175px;
+    border-left: 1px solid #d9d9d9;
+    border-right: 1px solid #d9d9d9;
+    text-align: center;
+}
+.contxt{
+    width: 810px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.contxt>div:not(:last-child){
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.contxt>div>span:first-child{
+	display: inline-block;
+    width: 105px;
+    color: #000;
+    font-size: 14px;
+    height: 100%;
+}
+.contxt>div>span:first-child>span{
+	color: #FF9748;
+	padding-right: 5px;
+}
+.contxt>div>input{
+    height: 38px;
+    width: 250px;
+    line-height: 38px;
+    text-indent: 15px;
+    font-size: 14px;
+    border: 1px solid #d8d8d8;
+    outline: none;
+}
+#txyzm{
+    width: 140px;
+}
+.contxt>div>img{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    vertical-align: middle;
+    /* display: inline-block; */
+}
+.get-yzm{
+    display: inline-block;
+    width: 90px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    border: 1px solid #656565;
+    cursor: pointer;
+    color: #656565;
+	margin-left: -97px;
+}
+.contxt button{
+    width: 105px;
+    height: 34px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+	background: linear-gradient(270deg,#EE794D, #F2A358);
+	outline: none;
+	border:0;
+	margin-bottom: 6px;
+}
+.contxt>div:last-child{
+	position: relative;
+    margin-bottom: 20px;
+}
+.greybg{
+	display: inline-block;
+	height: 32px;
+	line-height: 32px;
+    background-color: #f2f2f2;
+    color:#666;
+	padding: 0 10px;
+	margin-left: 5px;
+}
+.verifi{
+	display: inline-block;
+    height: 32px;
+	line-height: 32px;
+    background: ##ff713a;
+    padding: 0 10px;
+    color: #fff;
+    margin-left: 5px;
+}
+#ff{
+	margin-left: 10px;
+}
+.ddddd{
+	position: absolute;
+	z-index: 990;
+	margin:-80px 105px;
+	color: #fff;
+	background: #f08851;
+	font-size: 14px;
+	height: 35px;
+	line-height: 35px;
+	padding: 0px 10px;
+	opacity: 0.9;
+}

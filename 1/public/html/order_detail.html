@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="order_detail.css">
+		<script src="jquery-1.11.3.js"></script>
+	</head>
+	<body style="background: #f8f8f8;">
+		<div class="layui-layer-shade" id="layui-layer-shade1" times="1" style="z-index:19891014; background-color:#000; opacity:0.3; filter:alpha(opacity=30);display:none;">
+		</div>
+		<div class="layui-layer layui-layer-page layui-layer-rim layer-anim" id="layui-layer1" type="page" times="1" showtime="0" contype="string" style="z-index: 19891015; width: 970px; height: 390px; top: 172.5px; left: 458.5px;display:none;">
+			<div class="layui-layer-title" style="cursor: move;">新增收货人地址
+			</div>
+			<div id="" class="layui-layer-content" style="height: 347px;">
+				<div id="form_new_address">
+			    <input class="form-input" value="" maxlength="20" name="address_id" type="hidden">
+			    <div class="cboxContent">
+				    <div class="pb-bd">
+					    <div class="pb-ct">
+						      <div class="user-form foreg-form">
+										<div class="form-row form-new">
+								      <div class="item mt10" id="area_div">
+										    <span class="label"><em>*</em>所在地区：</span>
+						            <div id="jd_area" class="ui-area-wrap fl ui-area-oversea-mode">
+	                        <div class="ui-area-text-wrap">
+											      <div class="ui-area-text" data-id="0-0-0" title="--请选择--">--请选择--</div>
+														<b></b>
+					                </div>
+					                <div class="ui-area-content-wrap ui-area-w-max" style="left: 0px;">
+						                <div class="ui-area-tab">
+															<a class="ui-switchable-item ui-area-current" data-id="-1" title="选择" id="sheng"><em>请选择</em><i></i>
+															</a>
+															<a class="ui-switchable-item" data-id="-1" title="请选择" id="shiqu"><em>请选择</em><i></i>
+															</a>
+															<a class="ui-switchable-item" data-id="-1" title="请选择" id="xian"><em>请选择</em><i></i>
+															</a>
+											      </div>
+						                <div class="ui-area-content">
+											          <div class="ui-switchable-panel ui-switchable-panel-selected" data-index="0" style="width:460px;height:217px;">
+													        <ul class="ui-area-content-list ui-province">
+																		<li><a data-id="2" title="北京" href="javascript:void(0)">北京</a></li>
+																		<li><a data-id="3" title="天津" href="javascript:void(0)">天津</a></li>
+																		<li><a data-id="4" title="河北省" href="javascript:void(0)">河北省</a></li>
+																		<li><a data-id="5" title="山西省" href="javascript:void(0)">山西省</a></li>
+																		<li><a data-id="6" title="内蒙古" href="javascript:void(0)">内蒙古</a></li>
+																		<li><a data-id="7" title="辽宁省" href="javascript:void(0)">辽宁省</a></li>
+																		<li><a data-id="8" title="吉林省" href="javascript:void(0)">吉林省</a></li>
+																		<li><a data-id="9" title="黑龙江省" href="javascript:void(0)">黑龙江省</a></li>
+																		<li><a data-id="10" title="上海" href="javascript:void(0)">上海</a></li>
+																		<li><a data-id="11" title="江苏省" href="javascript:void(0)">江苏省</a></li>
+																		<li><a data-id="12" title="浙江省" href="javascript:void(0)">浙江省</a></li>
+																		<li><a data-id="13" title="安徽省" href="javascript:void(0)">安徽省</a></li>
+																		<li><a data-id="14" title="福建省" href="javascript:void(0)">福建省</a></li>
+																		<li><a data-id="15" title="江西省" href="javascript:void(0)">江西省</a></li>
+																		<li><a data-id="16" title="山东省" href="javascript:void(0)">山东省</a></li>
+																		<li><a data-id="17" title="河南省" href="javascript:void(0)">河南省</a></li>
+																		<li><a data-id="18" title="湖北省" href="javascript:void(0)">湖北省</a></li>
+																		<li><a data-id="19" title="湖南省" href="javascript:void(0)">湖南省</a></li>
+																		<li><a data-id="20" title="广东省" href="javascript:void(0)">广东省</a></li>
+																		<li><a data-id="21" title="广西省" href="javascript:void(0)">广西省</a></li>
+																	  <li><a data-id="22" title="海南省" href="javascript:void(0)">海南省</a></li>
+																		<li><a data-id="23" title="重庆" href="javascript:void(0)">重庆</a></li>
+																		<li><a data-id="24" title="四川省" href="javascript:void(0)">四川省</a></li>
+																		<li><a data-id="25" title="贵州省" href="javascript:void(0)">贵州省</a></li>
+																		<li><a data-id="26" title="云南省" href="javascript:void(0)">云南省</a></li>
+																		<li><a data-id="27" title="西藏" href="javascript:void(0)">西藏</a></li>
+																		<li><a data-id="28" title="陕西省" href="javascript:void(0)">陕西省</a></li>
+																		<li><a data-id="29" title="甘肃省" href="javascript:void(0)">甘肃省</a></li>
+																		<li><a data-id="30" title="青海省" href="javascript:void(0)">青海省</a></li>
+																		<li><a data-id="31" title="宁夏" href="javascript:void(0)">宁夏</a></li>
+																		<li><a data-id="32" title="新疆" href="javascript:void(0)">新疆</a></li>
+																		<li><a data-id="33" title="台湾" href="javascript:void(0)">台湾</a></li>
+																		<li><a data-id="34" title="香港特别行政区" href="javascript:void(0)">香港特别行政区</a></li>
+																		<li><a data-id="35" title="澳门特别行政区" href="javascript:void(0)">澳门特别行政区</a></li>
+																		<li><a data-id="36" title="海外" href="javascript:void(0)">海外</a></li>
+																	</ul>
+												        </div>
+												        <div class="ui-switchable-panel" data-index="1"  style="width:460px;height:217px;">
+														    <ul class="ui-area-content-list ui-city">
+
+															  </ul>
+												        </div>
+												        <div class="ui-switchable-panel" data-index="2"  style="width:460px;height:217px;">
+														      <ul class="ui-area-content-list ui-area">
+															    </ul>
+												        </div>
+											        </div>
+								              <div class="ui-area-close"></div>
+							              </div>
+						              </div>
+						              <span class="error-msg" id="jd_area_tab_error"></span>
+						            </div>
+								      </div>
+									    <div class="form-row">
+									      <div class="form-label">
+												<span class="red">*</span>详细街道地址：
+											</div>
+									    <div class="form-value">
+										    <input class="form-input form-input-long" name="address" value="" style="width:450px" type="text">
+									    </div>
+								    </div>
+								    <div class="form-row">
+									    <div class="form-label">
+												<span class="red">*</span>收货人姓名：
+											</div>
+									    <div class="form-value">
+										    <input class="form-input" value="" maxlength="20" name="consignee" type="text">
+								      </div>
+								    </div>
+								    <div class="form-row">
+								      <div class="form-label">
+												<span class="red">*</span>收货人手机号：
+											</div>
+									    <div class="form-value">
+										    <input class="form-input" maxlength="11" name="tel" value="" type="text">
+									    </div>
+								    </div>
+							      <div class="form-row">
+									    <div class="form-label">
+												<span class="red">*</span>订购人姓名：
+											</div>
+									    <div class="form-value">
+										    <input class="form-input" value="" maxlength="20" name="buyer_name" type="text">
+							        </div>
+								    </div>
+								    <div class="form-row">
+									    <div class="form-label">
+												<span class="red">*</span>订购人手机号：
+											</div>
+									    <div class="form-value">
+										    <input class="form-input" maxlength="11" name="buyer_tel" value="" type="text">
+									    </div>
+							      </div>
+						      </div>
+					    </div>
+					    <div class="tip-box icon-box">
+						    <div class="pb-ft">
+							    <a class="pb-btn pb-ok" id="save_addr">保存</a>
+									<a class="pb-btn pb-cl" id="close_addr">取消</a>
+							</div>
+					  </div>
+				  </div>
+			  </div>
+			</div>
+		</div>
+			<span class="layui-layer-setwin"><a class="layui-layer-ico layui-layer-close layui-layer-close1" href="javascript:;"></a></span><span class="layui-layer-resize"></span>
+		</div>
+		<div id="header"></div>
+		<div class="mdl">
+		    <div id="tt">
+				<div class="w-1200">
+			        <div>
+						<span class="step-item-2">1.我的购物车</span><img src="arr-right.jpg" class="img-style">
+						<span class="step-item">2.填写订单信息</span><img src="arr-right.jpg" class="img-style">
+						<span class="step-item-2" style="border: 1px solid #f8f8f8;">3.成功提交订单</span>
+					</div>
+					<div style="background: #fff;">
+					    <div class="cart-tbody">
+					        <div class="checkout-warp">
+					            <div class="ck-step-tit">
+                                    <h3>收货人信息</h3>
+						        </div>
+						        <div class="ck-step-cont" id="consignee-addr" style="padding-bottom: 30px;">
+						            <div class="consignee-warp">
+							            <div class="cs-w-item" id="tjaddress">
+							              <a class="add-new-address" ectype="dialog_checkout">
+								            <i class="iconfont icon-add-quer"></i>
+								            <span>添加新地址</span></a>
+													</div>
+													<div style="clear:both">
+														</div>
+						              </div>
+							    </div>
+							    <div class="reminder"></div>
+							    <div class="ck-step-tit">
+                  	                <h3>配送费用</h3>
+								</div>
+								<div class="ck-step-cont">
+							        <div class="p-radio-item payment-item item-selected" data-shippingfee="0">
+                                        <span>市区(免费)</span>
+                                        <b></b>
+                                    </div>
+                                    <div class="p-radio-item payment-item" data-shippingfee="30">
+                                        <span>郊区(+30元)</span>
+                                        <b></b>
+                                    </div>
+                                    <div class="p-radio-item payment-item" data-shippingfee="50">
+                                        <span>远郊(+50元)</span>
+								        <b></b>
+								    </div>	 
+								</div>
+								<div class="ck-step-tit">
+								   	 <h3>配送时间</h3>
+								</div>
+								<div class="ck-step-cont">
+								   	<input name="best_timer" style="width:125px;float:left;margin-right:20px;"   class="text" id="send-date" placeholder="选择配送日期" value="" type="date">
+								   	<div class="p-radio-item payment-item item-selected" data-delivery_time="时段">
+                                        <span>时段</span>
+								        <b></b>
+								   	</div>	
+								    <div class="times_range" style="float: left;margin-right: 20px;">
+								        <select name="times_range" class="times-b contorl-select">
+								            <option value="">请选择</option>
+								            <option>08-10点</option>
+								            <option>10-12点</option>
+								            <option>12-14点</option>
+								            <option>14-16点</option>
+								            <option>16-18点</option>
+								            <option>18-20点</option>
+								            <option>20-22点</option>
+								            <option>上午</option>
+								            <option>下午</option>
+								            <option>晚上</option>
+								            <option>全天配送</option>
+								        </select>
+									</div>
+									<div class="p-radio-item payment-item" data-delivery_time="定时" id="btn_timing">
+                                        <span>定时</span>
+                                        <b></b>
+                                    </div>
+                                    <div class="times" style="display: none;">
+										<select name="time_hour" class="times-b contorl-select">
+											<option value="">请选择</option>
+											<option>08</option>
+											<option>09</option>
+											<option>10</option>
+											<option>11</option>
+											<option>12</option>
+											<option>13</option>
+											<option>14</option>
+											<option>15</option>
+											<option>16</option>
+											<option>17</option>
+											<option>18</option>
+											<option>19</option>
+											<option>20</option>
+											<option>21</option>
+											<option>22</option>
+										</select>
+			                            <span class="times-t">时</span>
+										<select name="time_minutes" class="times-b contorl-select">
+											<option value="">请选择</option>
+											<option>08</option>
+											<option>10</option>
+											<option>20</option>
+											<option>30</option>
+											<option>40</option>
+											<option>50</option>
+										</select>
+			                            <span class="times-t">分</span>
+			                            <span style="color:#C70007;margin-left:10px;">定时服务+30元，误差±20分钟。</span>
+			                        </div>
+								</div>
+								<div>
+									<p class="error-info">
+										<span>注意：您订购的商品为快递商品，一般情况下3-5天可送达，不承诺具体送达日期，您所选日期仅供参考，我们将尽量让送达日期吻合，谢谢！</span>
+									</p>
+								</div>
+								<div class="ck-step-tit">
+									<h3>贺卡留言+署名</h3>
+								</div>
+								<div class="ck-step-cont">
+									<textarea class="form-control" name="card_message" id="words" rows="5" placeholder="贺卡留言+署名" maxlength="200"></textarea>
+									<div class="msg">
+                                        <div class="tits">                  
+                                            <span class="tits-b tits-b-act" start="" end="" cardtype="1">送恋人</span>
+                                            <span class="tits-b" start="" end="" cardtype="2">送朋友</span>
+                                            <span class="tits-b" start="" end="" cardtype="3">送长辈</span>
+                                            <span class="tits-b" start="" end="" cardtype="4">送花篮</span>
+                                            <span class="tits-b" start="" end="" cardtype="5">生日祝福</span>
+                                        </div>
+                                        <div class="msg-block">
+                                          <ul style="inline-block">
+                                            <li data-content="1.愿你三冬暖">1.愿你三冬暖，愿你春不寒；愿你天黑有灯，下雨有伞；愿你路上有良人相伴。</li>
+                                            <li data-content="2.两个人在一起，最重要的感觉就是舒服。">2.两个人在一起，最重要的感觉就是舒服。即使默默不语，也是一种默契；纵然两两相望，也是一种欣喜。距离，让思念生出美丽；懂得，让心灵有了皈依。人生最幸福的事，就是有一个你暖暖的住在心底。</li>
+                                            <li data-content="3.有你在身边，是我此生经历的最美时光！你就是无可取代！">3.有你在身边，是我此生经历的最美时光！你就是无可取代！</li>
+                                            <li data-content="4.无论我们相距多么遥远，我的思念总在你的身边。想你！">4.无论我们相距多么遥远，我的思念总在你的身边。想你！</li>
+                                            <li data-content="5.我的爱永远不变！想和你相守，直到天荒地老......">5.我的爱永远不变！想和你相守，直到天荒地老......</li>
+                                            <li data-content="6.我的爱为你奔驰，像红色的血液充满身体。">6.我的爱为你奔驰，像红色的血液充满身体。</li>
+                                            <li data-content="7.于千万人之中遇见你，没有早一步也没有晚一步。从此我的世界多了一份美好，少了一 份悲伤，有你真的很好！">7.于千万人之中遇见你，没有早一步也没有晚一步。从此我的世界多了一份美好，少了一 份悲伤，有你真的很好！</li>
+                                            <li data-content="8.我多么希望，有一个门口">8.我多么希望，有一个门口，早晨，阳光照在草上，我们站着，扶着自己的门扇，门很低，但太阳是明亮的。草在结它的种子，风在摇它的叶子，我们站着，不说话，就十分美好。</li>
+                                            <li data-content="9.女王大人！原谅我吧！">9.女王大人！原谅我吧！我知道我错了，你若不能原谅我的话，那就不断的打电话骂我吧！我愿意被你骂到老！ </li>
+                                            <li data-content="10.即使我五音不全，可还是想为你唱一万首情歌……">10.即使我五音不全，可还是想为你唱一万首情歌…… </li>
+                                          </ul>
+                                          <ul style="display: none;">
+                                              <li data-content="1.生日快乐么么哒，恭祝兄弟仙福永享寿与天齐。">1.生日快乐么么哒，恭祝兄弟仙福永享寿与天齐。</li>
+                                              <li data-content="2.用友谊，为你披一件健康的衣裳防寒；">2.用友谊，为你披一件健康的衣裳防寒；用真诚，为你送一份吉祥的关怀送暖；用提醒，为你定一条如意的短信保安。朋友祝你健康缠绵，顺利无边，吉祥常伴！</li>
+                                              <li data-content="3.朋友是一颗心住在两个人的心房里">3.朋友是一颗心住在两个人的心房里</li>
+                                              <li data-content="4.不管世界尽头多寂寞，你的身边一定有我">4.不管世界尽头多寂寞，你的身边一定有我</li>
+                                              <li data-content="5.无私无邪无猜无疑的友情无价，你是我买不到的奢华">5.无私无邪无猜无疑的友情无价，你是我买不到的奢华</li>
+                                              <li data-content="6.所有人都说我很坚强，只有你劝我别逞强">6.所有人都说我很坚强，只有你劝我别逞强</li>
+                                              <li data-content="不求同年同月同日生，但求同年同月同日疯">7.不求同年同月同日生，但求同年同月同日疯</li>
+                                          </ul>
+                                          <ul style="display: none;">
+                                              <li data-content="1.您是经霜的枫树老更红历尽悲欢，愈显得襟怀坦荡。">1.您是经霜的枫树老更红历尽悲欢，愈显得襟怀坦荡。衷心祝愿您生命之树常青！</li>
+                                              <li data-content="2.寿比南山不老松，松古长春朝朝永生。祝您生辰快乐！健康幸福！">2.寿比南山不老松，松古长春朝朝永生。祝您生辰快乐！健康幸福！</li>
+                                              <li data-content="3.一斤花生二斤枣，好运经常跟您跑；">3.一斤花生二斤枣，好运经常跟您跑；三斤苹果四斤梨，吉祥和您不分离；五斤桔子六斤蕉，财源滚进您腰包；七斤葡萄八斤橙，愿您心想事就成；九斤芒果十斤瓜，愿您天天乐开花。</li>
+                                              <li data-content="4.这一季有我最深的思念就让花儿捎去满心的祝福，缀满您甜蜜的梦境，祝您健康快乐！">4.这一季有我最深的思念就让花儿捎去满心的祝福，缀满您甜蜜的梦境，祝您健康快乐！</li>
+                                              <li data-content="5.祝愿您长寿健康。这一季的花开得格外娇艳，您可知，那是因为我用情感在浇灌只等您的生日赠与您，愿您喜欢。">5.祝愿您长寿健康。这一季的花开得格外娇艳，您可知，那是因为我用情感在浇灌只等您的生日赠与您，愿您喜欢。</li>
+                                          </ul>
+                                          <ul style="display: none;">
+                                              <li data-content="恒心有恒业，隆德享隆名。">1.恒心有恒业，隆德享隆名。</li>
+                                              <li data-content="财源通四海，生意畅三春。">2.财源通四海，生意畅三春。</li>
+                                              <li data-content="生意似春笋，财源如春潮。">3.生意似春笋，财源如春潮。</li>
+                                              <li data-content="大展宏图，开业大吉。">4.大展宏图，开业大吉。</li>
+                                              <li data-content="敬贺开张，并祝吉祥。">5.敬贺开张，并祝吉祥。</li>
+                                          </ul>
+                                          <ul style="display: none;">
+                                              <li data-content="1.克隆一个平安给你，愿你健康一辈子；">1.克隆一个平安给你，愿你健康一辈子；克隆一个快乐给你，将快乐分你一份；克隆一个我给你，让我永久陪你；克隆一份祝福给你，祝你生日快乐！</li>
+                                              <li data-content="2.生日祝福送给你，好运幸运缠着你，"> 2.生日祝福送给你，好运幸运缠着你，快乐幸福陪着你，吉祥平安恋着你，家人朋友疼着你，上帝菩萨保佑你。祝你生日快乐，年年有今朝，岁岁都健康。</li>
+                                              <li data-content="3.在你生日的这一天，将快乐的音符，作为礼物送给你，愿您拥有365个美丽的日子，衷心地祝福你生日快乐！">3.在你生日的这一天，将快乐的音符，作为礼物送给你，愿您拥有365个美丽的日子，衷心地祝福你生日快乐！</li>
+                                              <li data-content="4.看今日的艳阳，那是我为你点亮的烛光；">4.看今日的艳阳，那是我为你点亮的烛光；望小鸟的飞翔，那是我为你祝福的翅膀；抬头将蓝天仰望，许下生日的愿望，祝你美梦伴着吉祥，绽放幸福的灵光！生日快乐！</li>
+                                              <li data-content="5.由于你的出现，才使这个世界从此变得温馨、美丽、可爱！祝你生日快乐！">5.由于你的出现，才使这个世界从此变得温馨、美丽、可爱！祝你生日快乐！</li>                   
+                                          </ul>   
+                                        </div>
+                                    </div>
+								</div>
+					            <div class="ck-step-tit">
+						           <h3>客服工号</h3>（选填）
+					            </div>
+					            <div class="ck-step-cont" style="padding-bottom:30px">
+                                    <label class="sale_emp_id_label"><input checked="checked" type="radio" name="sale_emp_id" value="默认客服">默认客服</label>
+        	                    	<label class="sale_emp_id_label"><input type="radio" name="sale_emp_id" value="1000">1000</label>
+        	                    	<label class="sale_emp_id_label"><input type="radio" name="sale_emp_id" value="1001">1001</label>
+        	                    	<label class="sale_emp_id_label"><input type="radio" name="sale_emp_id" value="1002">1002</label>
+        	                    	<label class="sale_emp_id_label"><input type="radio" name="sale_emp_id" value="1003">1003</label>
+        	                    	<label class="sale_emp_id_label"><input type="radio" name="sale_emp_id" value="1005">1005</label>
+        	                    	<label class="sale_emp_id_label"><input type="radio" name="sale_emp_id" value="1006">1006</label>
+        	                    	<label class="sale_emp_id_label"><input type="radio" name="sale_emp_id" value="1007">1007</label>
+        	                    	<label class="sale_emp_id_label"><input type="radio" name="sale_emp_id" value="1008">1008</label>
+        	                    	<label class="sale_emp_id_label"><input type="radio" name="sale_emp_id" value="1009">1009</label>
+        	                    	<label class="sale_emp_id_label"><input type="radio" name="sale_emp_id" value="1010">1010</label>
+        	                    	<label class="sale_emp_id_label"><input type="radio" name="sale_emp_id" value="1011">1011</label>
+        	                    	<label class="sale_emp_id_label"><input type="radio" name="sale_emp_id" value="1012">1012</label>
+        	                    	<label class="sale_emp_id_label"><input type="radio" name="sale_emp_id" value="1013">1013</label>
+        	                    	<label class="sale_emp_id_label"><input type="radio" name="sale_emp_id" value="1015">1015</label>
+        	                    	<label class="sale_emp_id_label"><input type="radio" name="sale_emp_id" value="1018">1018</label>
+        	                    	<label class="sale_emp_id_label"><input type="radio" name="sale_emp_id" value="1051">1051</label>
+        	                    	<label class="sale_emp_id_label"><input type="radio" name="sale_emp_id" value="1052">1052</label>
+        	                    	<label class="sale_emp_id_label"><input type="radio" name="sale_emp_id" value="1064">1064</label>
+					            </div>
+					            <div class="ck-step-tit">
+					                <h3>支付方式</h3>
+					            </div>
+					            <div class="ck-step-cont" style="padding-bottom:30px">
+                                    <div class="payment-list" ectype="paymentType">
+                                        <div class="p-radio-item payment-item item-selected" data-payment="1" style="height:38px;line-height:38px;">
+                                            <img class="icon_payment_code" src="alipay.jpg">
+                                            <b></b>
+                                        </div>
+                                    </div>
+					            </div>
+					            <div class="ck-step-tit">
+                                    <h3>商品信息</h3>
+                                    <a href="gwc.html" class="extra-r">返回购物车</a>
+                                </div>
+					            <div class="ck-step-cont" style="padding-bottom:30px">
+									<div class="ck-step-cont" id="sale_emp_id_box" style="padding:15px 0;background-color: #f8f8f8;">
+									
+									</div>
+								    <div class="ck-order-remark">
+									    <input name="postscript" id="remarkText" maxlength="45" size="15" class="text" placeholder="订单备注 限60个字" autocomplete="off" style="color: rgb(102, 102, 102);" type="text">
+										<span class="prompt">提示：请勿填写有关支付、收货等信息</span>
+									</div>
+								</div>
+								<div class="ck-step-tit" ectype="ck-toggle">
+									<h3>我的优惠券</h3>
+									<i class="iconfont icon-down" style="cursor: pointer;margin-left: 10px;">^</i>
+								</div>
+								<div class="ck-step-cont" style="display: none">
+									<input id="bonus_sn" style="width:112px;float:left;margin-right:20px;font-size:12px" class="text" placeholder="请输入优惠券代码" value="" type="text">
+									<span class="btn_validate_bouns">验证优惠券</span>
+								</div>
+								<div id="order_flow" style="width:1200px;margin-left:-30px;">
+									<div id="ECS_ORDERTOTAL">
+										<table width="100%" text-align="center" cellspacing="0" cellpadding="5">
+											<tbody>
+											    <tr>
+											    	<td>
+														  <div class="reminder_b"></div>
+														  <span>商品总价: <span class="salePrice_big" id="sp_zongjia">0</span></span>
+														  <div style="display:none;" data-delivery_price="服务费用">
+														  	<span>+定时服务费用:</span>
+														  	<span class="salePrice_big">0</span>
+														  </div>
+														  <div style="display:none;" data-delivery_price="配送费用">
+														  	<span>+配送费用:</span>
+														  	<span class="salePrice_big">0</span>
+													    </div>
+													  </td>
+											    </tr>
+											    <tr>
+											    	<td text-align="right" background="#ffffff">应付款金额: <span class="salePrice_big" id="sp_fyje">0</span></td>
+											    </tr>
+										  </tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="cart-tfoot">
+				    <button id="qjs" class="submit-btn">提交订单</button>
+				</div>
+			</div>
+		</div>
+		<div class="layui-layer layui-layer-tips  layer-anim" id="layui-layer9" type="tips" times="9" showtime="1000" contype="object" style="z-index: 19891023; position: absolute;display: none">
+			<div class="layui-layer-content" style="background-color: rgb(255, 143, 35);">
+				<span id="neirong"></span><i class="layui-layer-TipsG layui-layer-TipsR" style="border-bottom-color: rgb(255, 143, 35);"></i>
+		  </div>
+		  <span class="layui-layer-setwin"></span>
+		</div>
+		<div id="footer"></div>
+	</body>
+	<script src="head_foot.js"></script>
+    <script src="order_detail.js"></script>
+</html>

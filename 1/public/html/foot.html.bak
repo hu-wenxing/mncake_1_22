@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="foot.css">
+	</head>
+	<body>
+	<div class="con">
+		<div id="con_nav">
+		    <p>客服电话：400-888-5224</p>
+		    <div><span>市区免费送货</span><span>VIP客服服务</span><span>售后保障</span><span>帮助中心</span><span>关于我们</span></div>
+	        <p>版权所有：专注专业蛋糕销售平台，销量畅销品牌<br>
+	            © 版权所有:广州市美杰信息科技有限公司  </p>
+		</div>
+	</div>
+	<div class="right_service">
+	   <ul>
+	      <li class="r1"><a href="#">电话客服<span>400-888-5224</span></a></li>
+		  <li class="r2"><a href="#">在线客服</a></li>
+	      <li class="r3"></li>
+	   </ul>
+	</div>
+	</body>
+	<script>
+	</script>
+</html>

@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+ }
+a{
+	text-decoration: none; 
+	color: #555;
+}
+li{
+	list-style:none;
+}
+.w1200{
+	width: 1200px;
+	margin: 0px auto;
+  padding-top: 30px;
+	overflow: hidden;
+  color: #555;
+	font: 12px/1.5 Microsoft YaHei,tahoma,arial,Hevetica,\\5b8b\4f53,sans-serif;
+}
+/*右边的位置*/
+.user_right {
+	width: 955px;
+	border: 1px solid #e4e4e4;
+	float: right;
+	padding: 20px;
+}
+/*我的订单中头部的我的订单*/
+.user_order{
+	border-bottom: 2px solid #f2f2f2;height: 32px;
+}
+.user_right .user_order .tit{
+	height:22px;
+	border-left:3px solid #F2A358;
+}
+.user_right .user_order .tit p{
+	background: url(user_leftp1.png) no-repeat left center;
+	margin-left: 14px;
+	padding-left:30px;
+	font-size: 16px;
+	float: left;
+}
+.user_right .user_order .tabs{
+	float:right;
+}
+.user_right .tabs li{
+	float: left;
+	margin-right: 20px;
+	line-height: 24px;
+	height: 24px;
+	border-left: 1px solid #e4e4e4;
+	font-size:14px;
+	padding-left: 20px;
+	list-style: none;
+}
+.user_right .tabs li:first-child{
+	border-left:none;
+}
+.user_right .tabs li.active a{
+	color: #F2A358;
+}
+/*我的订单中订单详细*/
+.user-order-list{
+	margin: 10px 0;
+}
+/*我的订单中订单为空的情况*/
+.no_records{
+	height: 104px;
+	padding: 70px 0 70px 165px;
+	width: auto;
+	position: relative;
+	overflow: hidden;
+}
+.no_records .no_icon{
+	width: 159px;
+	height: 104px;
+	display: block;
+	float: left;
+	background: url(not-common-icon.png) no-repeat;
+}
+.no_records .no_info{
+	float: left;
+	margin-left: 25px;
+	line-height: 104px;
+}
+.no_records h3{
+	color: #8c8c8c;
+	font-size: 16px;
+	font-weight: bold;
+	display: block;
+	font-family: "microsoft yahei";
+}
+/*我的订单中有订单的情况*/
+.user-order-list .item{
+	border: 1px solid #e4e4e4;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.user-order-list .item-t-qb{
+	padding: 10px 20px;
+	height: 27px;
+	line-height: 27px;
+	white-space: nowrap;
+	border-bottom: 1px solid #e4e4e4;
+}
+.user-order-list .item-t .t-info{
+	max-width: 600px;
+	font-size: 12px;
+	float: left;
+}
+.user-order-list .item-t .t-info .info-item{
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 14px;
+	color: #666666;
+	border-left: 1px solid #e4e4e4;
+}
+.user-order-list .item-t .t-info .spe{
+	font-size: 16px;
+	color: #000;
+	border-left: none;
+	padding-left: 0px;
+}
+.user-order-list .item-c{
+	padding: 0px 20px;
+}
+.user-order-list .item-c .c-left{
+	width: 100%;
+	float: left;
+}
+.user-order-list .item-c .c-goods{
+	overflow: hidden;
+	width: auto;
+	border-bottom: 1px dashed #e4e4e4;
+	padding: 20px 0px;
+}
+.user-order-list .item-c .c-img{
+	width: 70px;
+	float: left;
+	margin-right: 20px;
+}
+.user-order-list .item-c .c-img img{
+	width: 70px;
+	height: 70px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.user-order-list .item-c .c-info{
+	padding-top: 20px;
+	float: left;
+	width: 820px;
+}
+.user-order-list .item-c .c-info .info-name{
+	margin-bottom: 5px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: block;
+	width: 500px;
+	float: left;
+	color: #333333;
+	font-size: 16px;
+}
+.user-order-list .item-c .c-info .num{
+	float: left;
+	width: 195px;
+}
+.user-order-list .item-c .c-info .info-price{
+	float: left;
+	width: 120px;
+}
+.user-order-list .item-c .c-info .info-price b{
+	color: #FF9748;
+	margin-right: 5px;
+	font-weight: normal;
+	font-size: 16px;
+}
+.user-order-list .item-c .c-handle{
+	width: 100%;
+	float: right;
+	text-align: right;
+	padding: 20px 50px 20px 0px;
+}
+.user-order-list .item-c .c-handle p{
+	display: inline-block;
+	padding-right: 20px;
+	font-size: 16px;
+}
+.user-order-list .item-c .c-handle p span{
+	color: #FF9748;
+	font-size: 18px;
+}
+.sc-btn{
+	padding: 0 10px;
+	background: #fff;
+	border: 1px solid #ccc;
+	display: inline-block;
+	color: #666;
+	cursor: pointer;
+	margin-right: 0;
+	margin-bottom: 5px;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	border-radius: 0px;
+}
+.user-order-list .item-c .c-handle a:hover,.user-order-list .item-c .c-handle a:nth-child(2){
+	color: #fff;
+	border: none;
+	height: 32px;
+	line-height: 32px;
+	width: 102px;
+	background: -webkit-linear-gradient(270deg,#EE794D,#F2A358);
+	background: -o-linear-gradient(270deg,#EE794D, #F2A358);
+	background: -moz-linear-gradient(270deg,#EE794D, #F2A358);
+	background: linear-gradient(270deg,#EE794D, #F2A358);
+}
+/*右侧最下方下方空的div*/
+.search-page{
+	padding-bottom: 50px;
+}

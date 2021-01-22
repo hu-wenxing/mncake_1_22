@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+         <meta charset="utf-8">
+         <title>用户中心_米诺蛋糕网</title>
+         <link rel="stylesheet" type="text/css" href="login.css">
+         <script src="jquery-1.11.3.js"></script>
+		 <script type="text/javascript">
+		 	function login_mm(){
+				login_upwd.style="display:block";
+				login_mobile.style="display:none";
+				mmdl.className="login_check";
+				yzmdl.className="";
+			}
+			function login_yzm(){
+				login_mobile.style="display:block";
+   			    login_upwd.style="display:none";
+				yzmdl.className="login_check";
+				mmdl.className="";
+			}
+		 </script>
+    </head>
+    <body>
+		<div id="header"></div>
+		<div class="mdl" id="tt">
+			<div class="login_page">
+				<div class="w1200">
+					<div class="loginform">
+						<ul class="tit">
+							<li onclick="login_mm()" class="login_check" id="mmdl">账户密码登陆</li>
+							<li onclick="login_yzm()" id="yzmdl">手机号快捷登陆</li>
+						</ul>
+						<div id="login_upwd">
+							<span id="dd"></span>
+						    <input type="text" id="phone" placeholder="请输入您的手机号"  maxlength="11"><span id="aa"></span>
+						    <span id="ddd"></span>
+							<input type="password" id="upwd" placeholder="请输入密码"><span id="bb"></span>
+							<p><a href="#">忘记密码</a></p>
+							<span id="dddd"></span>
+						    <button id="show4">点击登录</button>
+							<div class="register">
+								<a href="reg.html">点击注册</a>
+							</div>
+						</div>
+						<div id="login_mobile">
+							<span id="dd10"></span>
+						    <input type="text" id="phone2" placeholder="请输入您的手机号"  maxlength="11"><span id="aa10"></span>
+						    <span id="ddd10"></span>
+							<input type="password" id="txyzm" placeholder="图形验证码"><img src="txyzm.jpg" alt="">
+<span id="bb"></span>
+                            <span id="ddd12"></span>
+							<input type="password" id="dxyzm" placeholder="短信验证码"><a href="#" class="get-yzm">获取短信验证码</a><span id="bb10"></span>
+							<span id="dddd10"></span>
+						    <button onclick="show5()">点击登录</button>
+							<div class="register">
+								<a href="#">点击注册</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		  </div>
+        <div id="footer"></div>
+	</body>
+		<script src="head_foot.js"></script>
+		<script src="login.js"></script>
+</html>

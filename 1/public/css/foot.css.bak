@@ -1,0 +1,68 @@
+/* 尾部位置 */
+.con{
+	background-color: #F3F3F3;
+} 
+#con_nav{
+	width:1200px;
+	height: 205px;
+	background-color: #F3F3F3;
+	margin: 24px auto 0px auto;
+	padding: 45px 0px 0px;
+	text-align: center;
+	color: #484848;
+	font-size: 14px;
+}
+#con_nav>div{
+	padding-top: 20px;
+	padding-bottom: 25px;
+}
+#con_nav>div span{
+	height: 20px;
+    padding: 0px 35px;
+    border-right: 1px solid #AAAAAA;
+}
+#con_nav>div span:last-child{
+	border: 0px;
+}
+/*右侧的固定连接*/
+.right_service{
+    position: fixed;
+    right: 2px;
+    top: 50%;
+    margin-top: -100px;
+    z-index: 10000;
+}
+.right_service li{
+    background: url(right_kf_bg.png) no-repeat;
+    width: 183px;
+    height: 60px;
+    margin-bottom: 24px;
+    padding-left: 30px;
+	list-style:none;
+}
+.right_service li a{
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    padding-left: 15px;
+    height: 60px;
+    line-height: 58px;
+    text-align: center;
+}
+.right_service li a span{
+    font-size: 16px;
+    display: block;
+    padding-top: 5px;
+}
+li.r1 a{
+    background: url(rt_kf_ico1.png) no-repeat center left;
+    line-height: 20px;
+    padding-top: 10px;
+    height: 50px;
+}
+li.r2 a{
+    background: url(rt_kf_ico2.png) no-repeat center left;
+}
+li.r3 a{
+    background: url(rt_kf_ico3.png) no-repeat center left;
+}

@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+ }
+/* 头部位置 */
+ a{
+	text-decoration: none; 
+	color: #555;
+ }
+.top{
+    border-bottom: 1px solid #AAAAAA;
+    background: #fff;
+	height: 60px;
+	line-height: 60px;
+}
+.top_nav ul{
+	float: right;
+	padding-top: 20px;
+}
+.top_nav ul li{
+	float: left;
+	font: 12px/1.5 Microsoft YaHei,tahoma,arial,Hevetica,\\5b8b\4f53,sans-serif;
+	padding:0px 33px;
+    color: #484848;
+	border-right: 1px solid #AAAAAA;
+	list-style: none;
+	height: 21px;
+	line-height: 21px;
+}
+#djsj7{
+	padding-right:0px;
+	padding-left:14px;
+}
+.top a{
+	    color: #484848;
+		text-decoration: none;
+		position: relative;
+	}
+.top button{
+	font: 12px/1.5 Microsoft YaHei,tahoma,arial,Hevetica,\\5b8b\4f53,sans-serif;
+	outline: none;
+	border:0;
+	background-color: #fff;
+}
+.top button:hover{
+    cursor: pointer;/* 把光标变为一只手 */
+	color: #FF9748;
+}
+.top img{
+	margin: -3px 8px -3px 0px;
+	}
+#dd1{
+	border-right:0px;
+	padding-right: 0px;
+	}
+.head_nav{
+	width:1200px; height: 85px;
+	margin: 0 auto;
+}
+#fixed{
+	background-color: #fff;
+}
+.top_nav{
+	width: 1200px;
+	margin: 0 auto;
+}
+.cart_num{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    line-height: 13px;
+    padding: 1px;
+    border-radius: 50%;
+    background: #ff9748;
+    color: #fff;
+    top: -8px;
+    right: -12px;
+    text-align: center;
+    font-size: 12px;
+}
+/* #fixed{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+} */
+.head_nav>a>img{
+	float: left;
+	margin: 21px 0;
+}
+.head_nav ul{
+    float: right;
+    padding-top: 32px;
+}
+.head_nav li{
+    float: left;
+    padding: 0px 14px;
+	list-style: none;
+	display: list-item;
+}
+.head_nav li a{
+    font-size: 16px;
+    color: #000;
+	text-decoration: none; 
+	text-align: center; 
+
+}
+.xianshi .gradual{
+	display: block;
+	height: 2px;
+	margin-top: 5px;
+	background: linear-gradient(270deg,#EE794D, #F2A358);
+}
+.xianshi a{
+	color: #FF9748 !important;
+}
+.gradual{
+	display: none;
+	height: 2px;
+    margin-top: 5px;
+	background: linear-gradient(270deg,#EE794D, #F2A358);
+}
+.head_nav li:hover .gradual{
+	display:block;
+}
+.head_nav li:hover a{
+	color: #FF9748;
+}
+.search{
+	width: 222px;
+	float: left;
+	padding-top: 25px;
+	padding-left: 40px;
+	position: relative;
+}
+.search>input{
+    font: 12px/1.5 Microsoft YaHei,tahoma,arial,Hevetica,\\5b8b\4f53,sans-serif;
+    background-color: #fff;
+    color: #A2A2A2;
+    width: 155px;
+	height: 35px;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 50px;
+    border: 1px solid #A2A2A2;
+	outline: none;
+}
+.search>button{
+    background: url(search_ico.png) center no-repeat;
+    width: 45px;
+    height: 27px;
+    position: absolute;
+    top: 30px;
+    right: 2px;
+	border: 0;
+    border-left: 1px solid #A2A2A2;
+    outline: 0;
+    cursor: pointer;/* 把光标变为一只手 */
+}

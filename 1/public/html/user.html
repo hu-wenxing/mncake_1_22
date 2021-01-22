@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>用户中心_米诺蛋糕网</title>
+        <link rel="stylesheet" type="text/css" href="user.css">
+		<script src="jquery-1.11.3.js"></script>
+	</head>
+	<body>
+	  <div id="header"></div>
+		<div class="w1200">
+			<div class="user_left" id="user_left"></div>
+      <div class="user_right">
+        <!--右侧个人中心显示的数据-->
+        <div class="user_head">
+          <div class="u_pic">
+            <a href="user.html"></a>
+          </div>
+          <div class="u_con">
+            <ul>
+              <li class="nickname"><a href="/user.html">19138110849</a></li><li class="fen"></li>
+              <li class="grade"><a href="/user-rank.html">注册会员</a></li><li class="fen"></li>
+              <li class=""><a href="/logout.html">退出登陆</a></li><li class="fen"></li>
+              <li class="what"><a href="/help-user_rank.html" target="_blank">什么会员等级</a></li>
+            </ul>
+            <div class="u_safe">
+              <div class="name">账户安全：</div>
+              <div class="safe_con"><a class="pwd has" title="密码已设置"></a><a class="mb" title="手机已验证"></a></div>  
+            </div>
+          </div>
+          <div style="clear:both"></div>
+        </div>
+        <ul class="user_order_nav">
+          <li><a href="#">全部订单<p class="num">0</p></a></li>
+          <li><a href="#?order_status=0">待付款<p class="num">0</p></a></li>
+          <li><a href="#?order_status=1">待收货<p class="num">0</p></a></li>
+          <li><a href="#?order_status=2">待评价<p class="num">0</p></a></li>
+          <li><a href="#" target="_blank" class="select">订单查询<p></p></a></li>
+        </ul>
+        <!--右侧个人中心显示的数据，我的购物车及下方商品总的div-->
+        <div class="user_cart">
+          <div class="tit">
+            <p>我的购物车</p>
+          </div>
+          <!--右侧个人中心显示的数据，将来购物车有商品时替换的地方-->
+          <div class="cartlist">
+            <!--右侧个人中心显示的数据，购物车为空的情况-->
+            <!-- <div class="empty_cart">
+                <img src="empty_cart.png">
+                <p>购物车还是空空的呢，先看看猜你喜欢吧</p>
+                <p><a href="index.html">回首页逛逛 &gt;</a></p>
+            </div> -->
+            <!--右侧个人中心显示的数据，购物车有商品的情况-->
+            <div class="cart_head" style="width:913px;overflow: hidden;">
+              <div class="c-goods">商品</div>
+              <div class="c-price">单价（元）</div><div class="c-quantity">数量</div>
+              <div class="c-sum">小计</div><div class="c-action">操作</div>
+            </div>
+            <div class="item-single">
+              <!--右侧个人中心显示的数据，购物车有多个商品时，就创建多个item-item selected-->
+              <div class="item-item selected" ectype="item" data-rec_id="763044">
+                <div class="item-form" style="width:923px;overflow: hidden;">
+                  <!--右侧个人中心显示的数据，商品的图片和标题和尺寸-->
+                  <div class="cell s-goods">
+                    <div class="goods-item">
+                      <div class="p-img">
+                        <a href="" target="_blank"><img src="1_2lg.jpg" style="width:80px;height:80px;"></a>
+                      </div>
+                      <div class="item-msg">
+                        <a href="" target="_blank">ins风小清新奶油蛋糕</a>
+                        <div class="gds-types">尺寸:6寸</div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--右侧个人中心显示的数据，商品的价格-->
+                  <div class="cell s-price">
+                    <strong id="goods_price_5">￥169.00</strong>
+                  </div>
+                  <!--右侧个人中心显示的数据，商品的数量-->
+                  <div class="cell s-quantity">
+                    <div class="amount-warp">
+                      <input value="1" name="number" min_number="1" class="text buy-num" type="text">
+                      <div class="a-btn">
+                        <a class="btn-add " min_number="1"><i style="font-size:12px;font-style: normal;">+</i></a>
+                        <a class="btn-reduce btn-disabled" min_number="1"><i style="font-size:12px;font-style: normal;">-</i></a>
+                      </div>
+                  </div>
+                  </div>
+                  <!--右侧个人中心显示的数据，商品的小计-->
+                  <div class="cell s-sum">
+                    <strong><font class="goods_subtotal">￥169.00</font></strong>
+                  </div>
+                  <!--右侧个人中心显示的数据，商品的删除按钮-->
+                  <div class="cell s-action">
+                    <a href="javascript:;" class="cart-remove btn_remove" data-rec_id="763044"></a>
+                  </div>
+                  <div style="clear: both;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="cart-tfoot">
+              <div>
+                <div class="toolbar-right">
+                  <div class="comm-right">
+                    <div class="btn-area">
+                      <form name="formCart" method="get" action="/order.html"><input name="goPay" class="submit-btn" value="去结算" type="button"></form>
+                    </div>
+                    <div class="price-sum" id="total_desc">
+                      <span class="txt">总价(  不含运费)：</span>
+                      <span class="price sumPrice" id="cart_goods_amount" ectype="goods_total">￥178.00</span>
+                    </div>
+                    <div class="fen"></div>
+                    <div class="reduce-sum">
+                      <span class="txt">已节省：</span>
+                      <span class="price totalRePrice" id="save_total_amount" ectype="save_total">￥53.00</span>
+                    </div>
+                    <div class="fen"></div>
+                    <div class="amount-sum">
+                      已选择<em class="cart_check_num" ectype="cartNum">1</em>件商品
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	  <div id="footer"></div>
+	</body>
+	<script src="head_foot.js"></script>
+	<script src="user_left.js"></script>
+	<script src=""></script>
+</html>

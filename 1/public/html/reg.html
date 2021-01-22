@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+        <title>用户中心_米诺蛋糕网</title>
+        <link rel="stylesheet" type="text/css" href="reg.css">
+        <script src="jquery-1.11.3.js"></script>
+</head>
+<body>
+	<div id="header"></div>
+	<div class="mdl" id="ttt">
+		<div class="title">	
+			<h3>手机注册</h3>
+		</div>
+		<div class="contxt">
+		    <div><span><span>*</span>手机号码：</span><input type="text" id="phone" onkeyup="sh1()" onfocus="show1()" placeholder="请输入注册手机号" maxlength="11"><span id="aa"></span></div>
+		    <div><span><span>*</span>图形验证码：</span><input type="text" id="txyzm" onkeyup="sh6()" onfocus="show6()" placeholder="图形验证码"><img src="txyzm.jpg" alt=""><span id="hh"></span></div>
+		    <div><span><span>*</span>短信验证码：</span><input type="text" id="dxyzm" onkeyup="sh7()" onfocus="show7()" placeholder="请输入短信验证码"><a href="#" class="get-yzm">获取短信验证码</a><span id="ff"></span></div>
+		    <div><span><span>*</span>登录密码：</span><input type="password" id="upwd" onkeyup="sh2()" onfocus="show2()" placeholder="请输入密码"><span id="bb"></span></div>
+		    <div><span><span>*</span>确认密码：</span><input type="password" id="cpwd" onkeyup="sh3()" onfocus="show3()" placeholder="请输入确认密码"><span id="cc"></span></div>
+		    <div><span><span>&nbsp;</span>昵称：</span><input type="text" placeholder="选填"></div>
+		    <div><span></span><button onclick="show5()">注册</button><div id="dd"></div></div>
+		</div>
+	</div>
+	<div id="footer"></div>
+</body>
+    <script src="head_foot.js"></script>
+    <script src="reg.js"></script>
+</html>

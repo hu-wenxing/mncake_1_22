@@ -1,0 +1,389 @@
+*{
+    padding: 0;
+    margin: 0;
+ }
+a{
+	text-decoration: none; 
+	color: #555;
+}
+li{
+	list-style:none;
+}
+.w1200{
+	width: 1200px;
+	margin: 0px auto;
+  padding-top: 30px;
+	overflow: hidden;
+  color: #555;
+	font: 12px/1.5 Microsoft YaHei,tahoma,arial,Hevetica,\\5b8b\4f53,sans-serif;
+}
+/*右边的位置*/
+.user_right {
+	width: 955px;
+	border: 1px solid #e4e4e4;
+	float: right;
+	padding: 20px;
+}
+/*个人中心*/
+.user_right .user_head{
+	border-bottom: 2px solid #FF9748;
+	padding-bottom:20px;
+}
+.user_head .u_pic{
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+	border-radius: 50%;
+	float: left;
+}
+.user_head .u_pic a{
+	width: 60px;
+	height: 60px;
+	background: url(user_login.png) no-repeat;
+	background-size: 60px;
+	display: block;
+}
+.user_head .u_pic img{
+	width: 60px;
+	height: 60px;
+	display: none;
+}
+.user_head .u_con{
+	float:left;
+	width:840px;
+	margin-left: 20px;
+}
+.user_head .u_con ul{
+	padding-top: 10px;
+	width: 100%;
+	float: left;
+}
+.user_head .u_con li{
+	height: 18px;
+	line-height: 18px;
+	float: left;
+}
+.user_head .u_con li.fen{
+	border-left:1px solid #e4e4e4;
+	margin:2px 20px;
+	height: 14px;
+}
+.user_head .u_con li.nickname{
+	font-size: 16px;
+	color:#000;
+}
+.user_head .u_con li.grade{
+	background: url(user_ico.png) no-repeat left center;
+	padding-left: 20px;
+}
+.user_head .u_con li.what{
+	background: url(icon_wenhao.png) no-repeat left center;
+	padding-left: 20px;
+}
+.user_head .u_safe{
+	float: left;
+	padding-top:6px;
+}
+.u_safe .name{
+	font-size: 14px;
+	color: #585858;
+	float: left;
+}
+.user_head .u_safe .safe_con{
+	float: left;
+}
+.u_safe .safe_con a{
+	display:block;
+	float: left;
+	width: 20px;
+	height: 25px;
+	cursor: pointer;
+}
+.u_safe .safe_con a.pwd{
+	background: url(user_pwd_no.png) no-repeat center;
+}
+.u_safe .safe_con a.has{
+	background: url(user_pwd_has.png) no-repeat center;
+}
+.u_safe .safe_con a.mb{
+	background: url(user_mb_has.png) no-repeat center;
+}
+/*个人中心全部订单这一行*/
+.user_right .user_order_nav{
+	height: 54px;
+	border-bottom:1px solid #e4e4e4;
+	margin-bottom: 25px;
+}
+.user_right .user_order_nav li{
+	float: left;
+	width: 20%;
+	text-align: center;
+	box-sizing:border-box;
+	border-left:1px solid #e4e4e4;
+	height: 24px;
+	line-height: 24px;
+	margin-top: 12px;
+	font-size: 16px;
+}
+.user_right .user_order_nav li:first-child{
+	border-left: none;
+}
+.user_right .user_order_nav li a{
+	display: block;
+}
+.user_right .user_order_nav li a:hover{
+	color: #F2A358;
+}
+.user_right .user_order_nav li a p{
+	display: inline-block;
+	background: #F2A358;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	color: #fff;
+	line-height: 18px;
+	font-size: 12px;
+	margin-left: 5px;
+}
+.user_right .user_order_nav li .select p{
+	background: url(user_select.png) no-repeat 0px 4px;
+}
+/*个人中心中我的购物车这一行*/
+.user_right .user_cart .tit{
+	height:22px;
+	border-left:3px solid #F2A358;
+}
+.user_right .user_cart .tit p{
+	background: url(user_leftp4.png) no-repeat left center;
+	margin-left: 14px;
+	padding-left:30px;
+	font-size: 16px;
+	color: #000;
+}
+/*个人中心中购物车列表，商品为空时的情况*/
+.user_right .cartlist{
+	border:1px solid #e4e4e4;
+	margin-top: 15px;
+}
+.user_right .cartlist .empty_cart{
+	text-align: center;
+	padding: 20px;
+}
+.user_right .cartlist .empty_cart img{
+	margin-bottom: 10px;
+}
+.user_right .cartlist .empty_cart p{
+	color: #585858;
+	font-size: 14px;
+	padding-top:15px;
+}
+.user_right .cartlist .empty_cart p a{
+	color: #000;
+}
+.user_right .cartlist .empty_cart p a:hover{
+	color: #F2A358;text-decoration: underline;
+}
+/*个人中心中购物车列表，有商品时的情况*/
+.user_right .cartlist .cart_head{
+	height: 58px;
+	line-height: 58px;
+	border-bottom:1px solid #e4e4e4;
+	padding: 0px 20px;
+}
+.user_right .cartlist .cart_head div{
+	float: left;
+	color: #666666;
+	font-size: 16px;
+}
+.user_right .cartlist .cart_head .c-goods{
+	width:360px;
+	padding-right:40px;
+}
+.user_right .cartlist .cart_head .c-price{
+	width:150px;
+}
+.user_right .cartlist .cart_head .c-quantity{
+	width:150px;
+}
+.user_right .cartlist .cart_head .c-sum{
+	width:150px;
+}
+.user_right .cartlist .cart_head .c-action{
+	width:63px;
+}
+.user_right .cartlist .item-item{
+	padding:15px;
+	border-bottom: 1px dashed #e4e4e4;
+}
+.item-form .cell{
+	float: left;
+}
+.item-form .goods-item .p-img{
+  float: left;
+}
+.item-form .goods-item .item-msg{
+	float: left;
+	margin-left: 20px;
+	margin-top: 8px;
+}
+.gds-types{
+	padding-top: 8px;
+}
+.item-form .s-price strong{
+	display: block;
+	font-size: 16px;
+	color: #F2A358;
+	font-weight: 400;
+}
+.item-form .s-quantity .amount-warp{
+	overflow: hidden;
+	float: none;
+	margin-bottom: 2px;
+}
+.amount-warp .buy-num{
+  border: 1px solid #d2d2d2;
+	width: 24px;
+	height: 28px;
+  padding: 0 2px;
+  float: left;
+  outline: 0;
+  text-align: center;
+}
+.amount-warp .a-btn{
+	float: left;
+	width: 22px;
+	height: 28px;
+	border: 1px solid #d2d2d2;
+	border-left: 0;
+}
+.amount-warp .a-btn a{
+	float: left;
+	width: 22px;
+	height: 14px;
+	line-height: 14px;
+	text-align: center;
+	cursor: pointer;
+}
+.amount-warp .a-btn .btn-reduce{
+	height: 13px;
+	border-top: 1px solid #d2d2d2;
+}
+.amount-warp .a-btn .btn-disabled{
+	color: #e0e0e0;
+}
+.user_right .cartlist .item-form .goods-item{
+	margin-right: 0px;
+}
+.user_right .cartlist .item-form .goods-item .p-img{
+	width: 80px;
+	height: 80px;
+	border: 1px solid #e4e4e4;
+}
+.user_right .item-form .s-goods{
+	width:360px;padding-right:40px;
+}
+.user_right .item-form .goods-item .item-msg{
+	width:255px;
+	font-size: 14px;
+}
+.user_right .item-form .s-sum{
+	width:150px;
+	padding:20px 10px 0 0;
+}
+.user_right .item-form .s-price{
+	width:128px;
+	padding: 20px 28px 0 0;
+}
+.user_right .item-form .s-quantity{
+	width:72px;
+	padding:20px 68px 0 0;
+}
+.user_right .item-form .s-action{
+	padding-top: 20px;
+}
+.user_right .item-form .s-action a{
+	background: url(user_del_cart.png) no-repeat center;
+	display: block;
+	width: 24px;
+	height: 24px;
+}
+.cart-tfoot{
+	height: 80px;
+  line-height: 80px;
+  padding-right: 30px;
+	background-color: #fff;
+	font-size: 14px;
+	color: #8c8c8c;
+}
+.cart-tfoot .toolbar-right{
+	float: right;
+}
+.cart-tfoot .btn-area{
+	float: right;
+}
+.cart-tfoot .price-sum{
+	float: right;
+	margin-right: 25px;
+}
+.cart-tfoot .reduce-sum{
+	float: right;
+	margin-right: 25px;
+}
+.cart-tfoot .amount-sum{
+	float: right;
+	margin-right: 25px;
+}
+.user_right .cart-tfoot .fen{
+	float: right;
+	border-right: 1px solid #e4e4e4;
+	height: 15px;
+	margin-top: 32px;
+	margin-right: 30px;
+}
+.user_right .cart-tfoot{
+	margin-top:0px;
+	height:80px;
+	line-height:80px;
+	padding-right: 30px;
+	background-color: #fff;
+  font-size: 14px;
+  color: #8c8c8c;
+}
+.user_right .cart-tfoot .submit-btn{
+	width: 140px;
+	height: 40px;
+	line-height: 40px;
+	font-size:16px;
+	background: linear-gradient(#F2A358, #EE794D);
+	color: #fff;
+  text-align: center;
+	cursor: pointer;
+	outline: 0;
+	border:0;
+}
+.cart-tfoot .amount-sum .cart_check_num{
+	color: #F2A358;
+	margin: 0 5px;
+	font-style: normal;
+}
+.totalRePrice{
+	color: #333;
+}
+.cart-tfoot .price-sum *{
+	float: left;
+}
+.sumPrice{
+  font-size: 24px;
+  font-weight: 700;
+  color: #F2A358;
+}
+.cart-tfoot .btn-area form{
+	float: left;
+	height: 50px;
+	display: block;
+}
+.item-form .s-sum strong{
+  font-size: 16px;
+  font-weight: 700;
+  color: #F2A358;
+}

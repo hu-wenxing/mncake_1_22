@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+ }
+ /* 中间位置 */
+.login_page{
+	    background: url(login_bg.jpg) no-repeat center;
+	    height: 550px;
+	    margin-top: 25px;
+	    min-width: 1200px;
+}
+.w1200{
+	width: 1200px;margin: 0 auto;
+}
+.loginform{
+	width: 380px;
+	padding-bottom: 15px;
+	float: right;
+	margin-top: 70px;
+	background-color: #fff;
+	box-shadow: 0px 1px 0px rgba(0,0,0,0.1);
+}
+.tit{
+	height: 26px;
+	padding: 15px 0px;
+	border-bottom: 1px solid #f2f2f2;
+}
+.tit li:first-child{
+    border-right: 1px solid #d9d9d9;
+}
+.tit>.login_check{
+	color: #FF9748;
+}
+.tit li{
+    float: left;
+    width: 189px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    color: #333333;
+	list-style: none;
+	cursor: pointer;
+}
+#login_upwd{
+	padding: 30px 35px;
+	font: 12px/1.5 Microsoft YaHei,tahoma,arial,Hevetica,\\5b8b\4f53,sans-serif;
+	position: relative;
+}
+#login_upwd>p{
+    text-align: right;
+    padding-bottom: 5px;
+	text-decoration: none;
+	color: #555;
+}
+#login_upwd>button{
+    width: 310px;
+    height: 45px;
+    font-size: 18px;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 25px;
+	background: linear-gradient(270deg,#EE794D, #F2A358);
+}
+#login_upwd>input{
+	/* position: absolute; */
+	border-radius: 30px;
+	padding: 5px 10px 5px 50px;
+	width: 250px;
+	height: 35px;
+	font-size: 14px;
+	border: 1px solid #d2d2d2;
+	margin-bottom: 20px;
+	outline: 0;
+    background: url(login_uer.png) no-repeat 22px center;
+	/* z-index: 99; */
+}
+#login_upwd>#upwd{
+	background: url(login_pwd.png) no-repeat 22px center;
+}
+#login_mobile{
+	display: none;
+	padding: 30px 35px;
+	font: 12px/1.5 Microsoft YaHei,tahoma,arial,Hevetica,\\5b8b\4f53,sans-serif;
+	position: relative;
+}
+#login_mobile>button{
+    width: 310px;
+    height: 45px;
+    font-size: 18px;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 25px;
+	background: linear-gradient(270deg,#EE794D, #F2A358);
+}
+#login_mobile>input{
+	/* position: absolute; */
+	border-radius: 30px;
+	padding: 5px 10px 5px 50px;
+	width: 250px;
+	height: 35px;
+	font-size: 14px;
+	border: 1px solid #d2d2d2;
+	margin-bottom: 20px;
+	outline: 0;
+    background: url(login_mobile.png) no-repeat 22px center;
+	/* z-index: 99; */
+}
+#login_mobile>#txyzm{
+	background: url(login_yzm.png) no-repeat 22px center;
+}
+#login_mobile>#dxyzm{
+	background: url(login_dxm.png) no-repeat 22px center;
+}
+#login_mobile>img{
+	cursor: pointer;
+    width: 100px;
+    height: 40px;
+	margin: -3px -2px 0 -122px;
+    vertical-align: middle;
+}
+.get-yzm{
+    display: inline-block;
+    width: 90px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    border: 1px solid #656565;
+    cursor: pointer;
+    color: #656565;
+	margin-left: -113px;
+}
+.ddddd{
+	display: inline-block;
+	position: absolute;
+	z-index: 990;
+	margin:-45px 0px;
+	color: #fff;
+	background: #f08851;
+	font-size: 14px;
+	height: 35px;
+	line-height: 35px;
+	padding: 0px 10px;
+	opacity: 0.9;
+}
+.register{
+    padding-top: 25px;
+    text-align: center;
+}
+.register>a{
+	padding: 0px 22px;
+	border-right:1px solid #d9d9d9;
+	border-left: 1px solid #d9d9d9;
+	color: #555;
+}
